@@ -1,5 +1,12 @@
-*/**
+*
+!index.ts
 !package/**/*.tsx
 !package/**/*.ts
 !package/**/*.js
 !package/**/*.jsx
+package/**/*.test.tsx
+package/**/*.test.jsx
+package/**/*.test.js
+package/**/*.test.ts
+package/**/*.test.d.ts
+package/**/*.test.d.tsx
