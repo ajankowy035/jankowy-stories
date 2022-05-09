@@ -10,3 +10,10 @@ package/**/*.test.js
 package/**/*.test.ts
 package/**/*.test.d.ts
 package/**/*.test.d.tsx
+"package/**/storybook",
+"package/**/*.stories.d.ts",
+"package/**/*.stories.jsx.map",
+"package/**/*.stories.jsx",
+"package/**/stories.d.ts",
+"package/**/stories.js",
+"package/**/stories.js.map"
