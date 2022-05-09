@@ -1,9 +1,14 @@
 {
   "name": "jankowy-stories",
-  "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "author": "ajankowy97",
+  "version": "1.0.1",
+  "main": "./package/index.js",
+  "types": "./package/index.d.ts",
   "scripts": {
     "start": "expo start",
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
@@ -22,6 +27,5 @@
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.66.13",
     "typescript": "~4.3.5"
-  },
-  "private": true
+  }
 }

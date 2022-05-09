@@ -1,0 +1,5 @@
+*/**
+!package/**/*.tsx
+!package/**/*.ts
+!package/**/*.js
+!package/**/*.jsx
