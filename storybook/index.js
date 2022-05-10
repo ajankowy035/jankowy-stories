@@ -13,8 +13,6 @@ configure(() => {
   require("./stories");
 }, module);
 
-const StorybookUIRoot = getStorybookUI({
+export default getStorybookUI({
   asyncStorage: null,
 });
-
-export default StorybookUIRoot;
