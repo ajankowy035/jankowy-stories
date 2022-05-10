@@ -1,5 +1,5 @@
 # jankowy-stories
-Here is a repo used in article for building expo typescript npm package integrated with jest and storybook.
+Here is a repo used in article about [Well-architectered npm package with expo, Stroybook, Typescript and jest](https://dev.to/ajankowy25/npm-package-with-expo-typescript-tests-and-storybook-integration-4pi6) for building expo typescript npm package integrated with jest and storybook.
 
 Dependencies installation:
 
